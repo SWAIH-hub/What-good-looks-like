@@ -11,7 +11,7 @@ We appreciate any contributions!
 
 Contributions can be made by raising pull requests against the master
 branch. If you are a new contributor, your pull request should also include adding your name and organisation 
-to the list of contributors under the [Code Contributors](#code-contributors) part of this page.
+to the list of contributors under the [Contributors](#contributors) part of this page.
 
 A reviewer will then read through the pull request and suggest any alterations or approve the PR. This process must be 
 done before a PR is merged with the master branch. 
