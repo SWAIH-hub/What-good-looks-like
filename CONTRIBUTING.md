@@ -16,9 +16,9 @@ to the list of contributors under the [Code Contributors](#code-contributors) pa
 A reviewer will then read through the pull request and suggest any alterations or approve the PR. This process must be 
 done before a PR is merged with the master branch. 
 
-## Code Contributors
+## Contributors
 
-The following people have contributed to this code under the terms of
+The following people have contributed to this document under the terms of
 the Contributor Licence Agreement and Certificate of Origin detailed
 below:
 
