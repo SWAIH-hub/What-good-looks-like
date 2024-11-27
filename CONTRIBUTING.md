@@ -29,6 +29,7 @@ below:
 - Georgina Reed (Devon Partnership NHS Trust)
 - Kayleigh Haydock (Royal Devon University Healthcare NHS Foundation Trust)
 - Ben Holdsworth (Somerset NHS Foundation Trust)
+- David Lewis (Royal Devon University Healthcare NHS Foundation Trust)
 <!-- end-shortlog -->
 
 ## Contributor Licence Agreement and Certificate of Origin
