@@ -28,6 +28,7 @@ below:
 - Chrissie Walker (Exeter University)
 - Georgina Reed (Devon Partnership NHS Trust)
 - Kayleigh Haydock (Royal Devon University Healthcare NHS Foundation Trust)
+- Ben Holdsworth (Somerset NHS Foundation Trust)
 <!-- end-shortlog -->
 
 ## Contributor Licence Agreement and Certificate of Origin
