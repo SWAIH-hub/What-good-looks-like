@@ -30,8 +30,6 @@ below:
 - Kayleigh Haydock (Royal Devon University Healthcare NHS Foundation Trust)
 <!-- end-shortlog -->
 
-
-
 ## Contributor Licence Agreement and Certificate of Origin
 
 By making a contribution to this project, I certify that:
