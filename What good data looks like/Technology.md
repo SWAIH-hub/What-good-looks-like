@@ -16,7 +16,7 @@ Establishing a robust and scalable infrastructure is the foundation for standard
 
 ## Data Warehousing
 
-A centralised data warehouse ensures that trusts can store and access data consistently, enhancing collaboration and analytics capabilities.
+A centralised data warehouse ensures that trusts can store and access data consistently, enhancing collaboration and analytics capabilities. This will come with limitations due to each trust having their own seperate Data Warehouse.
 
 ### Storage
 
@@ -25,7 +25,7 @@ A centralised data warehouse ensures that trusts can store and access data consi
 
 ### Availability of Data
 
-- **Single Point of Access and Request**: Creating a unified request policy allows healthcare professionals to access relevant datasets securely, improving efficiency while reducing duplication.
+- **Single Point of Access and Request**: Creating a unified request policy allows healthcare professionals to access relevant datasets securely reducing duplication.
 - **Standard Request Forms**: Introducing uniform forms for data requests ensures consistency and reduces processing errors across trusts.
 - **Standard Return Criteria**: Clearly defined criteria for the output format and level of detail ensures that data returned from one trust is readily interpretable by another.
 
@@ -44,6 +44,9 @@ Combining and linking data from multiple sources (e.g., electronic health record
 
 - Implementing shared identifiers (e.g., NHS numbers) for linking patient data across trusts ensures data accuracy and interoperability.
 - Standard keys also improve analytics and reporting consistency.
+- This would be easier with trusts whom share the same Patient Administration system (such as EPIC) however, we can still ensure some consistencies to those who do not.
+- The trusts which do share the same PAS systems, can have a lift and shift approach to standard keys or use of the same data.
+- [ ] Any other
 
 ---
 
@@ -53,8 +56,13 @@ The centralisation of data and reliance on technology require robust security me
 
 ### Training and Awareness
 
+- Training on simple Python scripts (or the chosen language which the trust uses).
+- Sharing of these scripts to other trusts with simple isntructions on how to use.
+- If we share scripts, we need to perhaps need a .yml file to ensure that all of the packages that are used in the script are installed.
+- Training should also be done on free and open source software.
 - Regular staff training on cybersecurity best practices ensures all NHS employees can identify and mitigate risks such as phishing and ransomware attacks.
 - Continuous education about emerging threats and data protection laws (e.g., GDPR) supports compliance and safeguards sensitive patient information.
+- [ ] Any other
 
 ---
 
@@ -65,7 +73,8 @@ Ensuring high data quality is fundamental for making accurate clinical decisions
 ### Error Handling
 
 - Standardising error-checking mechanisms, such as automated validation scripts, will reduce inconsistencies across trusts.
-- Implementing robust logging and monitoring systems ensures that data errors are promptly identified and resolved, this could be small python scripts or a suite of Test-Driven Development (TDD) tests.
+- Implementing robust logging and monitoring systems ensures that data errors or data quality issues are promptly identified and resolved, this could be small python scripts or a suite of Test-Driven Development (TDD) tests.
+- [ ] Any other ideas
 
 ### Importance
 
@@ -73,7 +82,11 @@ Ensuring high data quality is fundamental for making accurate clinical decisions
 
 ### Automation Using AI
 
-- Incorporating AI for tasks like identifying outliers, filling missing values, or classifying unstructured data (e.g., free-text notes) can improve data quality and could potentially reduce manual effort.
+- Incorporating AI for tasks like identifying outliers to improve data quality and could potentially reduce manual effort:
+- [ ] Filling or highlighting missing values
+- [ ] Classifying unstructured data (e.g., free-text notes)
+- [ ] Using Linear Regression to perhaps help with predicting activity
+- [ ] Any other
 
 ---
 
@@ -83,8 +96,11 @@ Automating routine processes can reduce administrative burdens and allow healthc
 
 ### Routine Processes
 
-- Automating appointment scheduling, a few examples: Test result notifications or prescription reminders can save significant time across trusts.
+- Modeling pathways, in particular the pathways which are set from NHSe (Cancer PTL, Diagnostics, Daily SitReps), information that we know will be standardised for submission purposes.
+- Automating appointment scheduling, a few examples: Test result notifications or appointment reminders.
 - Shared templates and workflows for automation across trusts ensure scalability and efficiency.
+- Demand and Capicity modeling with certain specialties.
+- [ ] Any other ideas
 
 ---
 
@@ -97,6 +113,7 @@ Standardising the tools and technologies employed across trusts will promote con
 - **SQL**: As a universal language for managing and querying data in healthcare, SQL should be the standard for data warehousing.
 - **Python / R**: Both languages are highly effective for advanced analytics, machine learning and statistical modelling. Establishing guidelines for their use can ensure consistent coding standards.
 - **DAX**: If trusts are using Visualisation tools such as BI, there could be a centralised library of DAX for the replicating of visuals based off of shared datasets.
+- [ ] Any other languages
 
 ### Dashboarding Software
 
@@ -106,7 +123,7 @@ Standardising the tools and technologies employed across trusts will promote con
 
 ## Conclusion
 
-Developing a shared resource for best practices in technology will transform NHS operations allowing trusts to work together more effectively. By standardising infrastructure, tools and processes, the NHS can foster innovation, improve patient outcomes and create a sustainable framework for the future of healthcare.
+Developing a shared resource for best practices in technology will transform NHS operations allowing trusts to work together more effectively. By standardising infrastructure, tools and processes, the NHS can foster innovation, improve patient outcomes and create a sustainable framework for the future of healthcare. Some of the points above, will depend on each trusts setup, but if we can aim to standardise the areas which are do-able, we can at least be heading in the right direction.
 
 #### Updated By:
 Kayleigh Haydock
