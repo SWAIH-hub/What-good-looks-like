@@ -1,0 +1,14 @@
+format: jb-book
+root: README.md
+chapters:
+  - file: What_good_data_looks_like/Accessibility.md
+  - file: What_good_data_looks_like/Artificial_Intelligence.md
+  - file: What_good_data_looks_like/Data_Maturity.md
+  - file: What_good_data_looks_like/Documentation_and_Reproducibility.md
+  - file: What_good_data_looks_like/Information_Governance_and_Ethics.md
+  - file: What_good_data_looks_like/Introduction_to_Data.md
+  - file: What_good_data_looks_like/Organisational_Structure.md
+  - file: What_good_data_looks_like/Personal_Development.md
+  - file: What_good_data_looks_like/Reporting.md
+  - file: What_good_data_looks_like/Technology.md
+  - file: What_good_data_looks_like/What_does_good_data_look_like_in_Health_and_Social_Care.md
