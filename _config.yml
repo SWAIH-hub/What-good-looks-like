@@ -1,0 +1,7 @@
+title: What Good Data Looks Like
+author: Hub for Data Science in Applied Health and Social Care
+only_build_toc_files: true
+repository:
+  url: https://github.com/SWAIH-hub/What-good-looks-like
+html:
+  use_repository_button: true
